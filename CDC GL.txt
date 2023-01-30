@@ -1,0 +1,45 @@
+I- Contexte du projet, objectif et périmètre
+	- Reservation de salle de classe (type: TD, TP, Amphi):
+		- Les prof vont donner les contraintes selon le nombre d'heure, type de cours, la disponibilité du prof, ordre des cours (CM -> TD/TP)
+		- Le gestionnaire va saisir les contraintes suite à la demande du prof
+		- Les étudiants vont pouvoir consulter le tableau
+	- Objectif: Generer un edt dynamique (qui peut changer) en fonction des contraintes du prof
+    - Perimetre: un batiment de la fac
+    - A qui ? Etudiant, Prof, Gestionnaire
+    - A quoi ? La FAC
+    - Sur quoi ? Sur qui ? BDD ??
+
+
+II- Les spécification  (The protocols of components (abstract) ?)
+	A. Fonctionnelle ( Que doit faire le système logiciel ?)
+		- L'ensemble des fonctionnalité du projet:
+            - Login (E/P/G)
+            - Affichage edt (E/P/G)
+            - Saisie et envoi des contraintes : envoi de ticket (P)
+            - Application des contraintes et choix de l'edt final (G)
+            - CRUD sur la liste de table et de l'edt (G)
+            - 
+		- Le cycle de vie du projet (P<->G->E)
+		- Le processus du projet
+
+ 	B. Non fonctionnelle (Les exigences non fonctionnelles sont les aspects d’un système qui n’est pas directement lié à sa fonctionnalité principale.)
+		- Sécurité (Auth / ACL, Access Log)
+		- Performance (Rapidité de réponse)
+		- L’évolutivité (Gestion de charge, Scalabilité)
+		- Maintenabilité (Facilité de mise à jour, Log, )
+		- Ergonomie (Responsive design ?)
+		- Disponibilité(24/24 et 7/7)
+		- Testabilité
+
+III. Contraintes
+	- Utilisateur
+	- Economiques (idk)
+	- Financière (aucun)
+	- Sécuritaires (
+        Confidentialité: Exclusif aux membres de la fac
+        Intégrité, 
+        Disponibilité: 24/24 et 7/7
+    )
+	- Industrielles (doit être fabriqué au Ile de France, sur GitHub)
+	- Matérielles (Windows, Linux, MacOS, et les smartphone => en général sur tous les écrans)
+	- Temporelles (3 mois)
