@@ -15,23 +15,28 @@ I- Contexte du projet, objectif et périmètre
 II- Les spécification  (The protocols of components (abstract) ?)
 	A. Fonctionnelle ( Que doit faire le système logiciel ?)
 		- L'ensemble des fonctionnalité du projet:
-            - Login (E/P/G)
-            - Affichage edt (E/P/G)
-            - Saisie et envoi des contraintes : envoi de ticket (P)
-            - Application des contraintes et choix de l'edt final (G)
-            - CRUD sur la liste de table et de l'edt (G)
-            - 
+			- ELEVE:
+				- login
+				- consulation edt
+			- PROF:
+				- login
+				- CRUD contraintes (P)
+			- GESTIONNAIRE:
+	            - login
+	            - affichage edt
+	            - Update (traitement) des contraintes (: envoi de ticket (P)
+	            - CRUD salle de classe
+	            - CRUD matière
+	            - CRUD groupe des élèves
+	            - CRUD compte élève et prof
+            
 		- Le cycle de vie du projet (P<->G->E)
 		- Le processus du projet
 
- 	B. Non fonctionnelle (Les exigences non fonctionnelles sont les aspects d’un système qui n’est pas directement lié à sa fonctionnalité principale.)
-		- Sécurité (Auth / ACL, Access Log)
-		- Performance (Rapidité de réponse)
-		- L’évolutivité (Gestion de charge, Scalabilité)
-		- Maintenabilité (Facilité de mise à jour, Log, )
+		B. Non fonctionnelle (Les exigences non fonctionnelles sont les aspects d’un système qui n’est pas directement lié à sa fonctionnalité principale.)
+		- Sécurité (Auth / ACL)
 		- Ergonomie (Responsive design ?)
 		- Disponibilité(24/24 et 7/7)
-		- Testabilité
 
 III. Contraintes
 	- Utilisateur
@@ -39,7 +44,6 @@ III. Contraintes
 	- Financière (aucun)
 	- Sécuritaires (
         Confidentialité: Exclusif aux membres de la fac
-        Intégrité, 
         Disponibilité: 24/24 et 7/7
     )
 	- Industrielles (doit être fabriqué au Ile de France, sur GitHub)
