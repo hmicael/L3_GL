@@ -16,31 +16,43 @@ II- Les spécification  (The protocols of components (abstract) ?)
 	A. Fonctionnelle ( Que doit faire le système logiciel ?)
 		- L'ensemble des fonctionnalité du projet:
 			- ELEVE:
-				- login
+				- login (univ)
 				- consulation edt
 			- PROF:
-				- login
+				- login (univ)
 				- CRUD contraintes (P)
 			- GESTIONNAIRE:
-	            - login
+	            - login (univ)
 	            - affichage edt
 	            - Update (traitement) des contraintes (: envoi de ticket (P)
 	            - CRUD salle de classe
 	            - CRUD matière
-	            - CRUD groupe des élèves
-	            - CRUD compte élève et prof
             
 		- Le cycle de vie du projet (P<->G->E)
 		- Le processus du projet
+		- Contrainte:
+			- id 
+			- idProf
+			- nbH
+			- nbSeance
+			- nbGroupe
+			- lien entre CM, TD, TP (ex: TD et TP interaclé)
 
-		B. Non fonctionnelle (Les exigences non fonctionnelles sont les aspects d’un système qui n’est pas directement lié à sa fonctionnalité principale.)
-		- Sécurité (Auth / ACL)
+	B. Non fonctionnelle (Les exigences non fonctionnelles sont les aspects d’un système qui n’est pas directement lié à sa fonctionnalité principale.)
+		- Sécurité (Auth LDAP univ / ACL selon info LDAP)
+		? Performance (Rapidité de réponse) ??
+		? L’évolutivité (Gestion de charge, Scalabilité)
+		- Maintenabilité (Facilité de mise à jour, Log, ) ?
 		- Ergonomie (Responsive design ?)
 		- Disponibilité(24/24 et 7/7)
+		? Testabilité
 
 III. Contraintes
 	- Utilisateur
-	- Economiques (idk)
+	- Economique:
+		- Maintenance: personnel qui va l'utiliser (Administrateur, ...)
+		- Type de licence: open source
+		- Cout des matériels
 	- Financière (aucun)
 	- Sécuritaires (
         Confidentialité: Exclusif aux membres de la fac
