@@ -12,8 +12,7 @@ I- Contexte du projet, objectif et périmètre
 	    - Ressource: salle de classe
 
 
-II- Les spécification  (The protocols of components (abstract) ?)
-	A. Fonctionnelle ( Que doit faire le système logiciel ?)
+II- Les spécification fonctionnelle ( Que doit faire le système logiciel ?)
 		- L'ensemble des fonctionnalité du projet:
 			- ELEVE:
 				- login (univ)
@@ -36,16 +35,7 @@ II- Les spécification  (The protocols of components (abstract) ?)
 			- nbH
 			- nbSeance
 			- nbGroupe
-			- lien entre CM, TD, TP (ex: TD et TP interaclé)
-
-	B. Non fonctionnelle (Les exigences non fonctionnelles sont les aspects d’un système qui n’est pas directement lié à sa fonctionnalité principale.)
-		- Sécurité (Auth LDAP univ / ACL selon info LDAP)
-		? Performance (Rapidité de réponse) ??
-		? L’évolutivité (Gestion de charge, Scalabilité)
-		- Maintenabilité (Facilité de mise à jour, Log, ) ?
-		- Ergonomie (Responsive design ?)
-		- Disponibilité(24/24 et 7/7)
-		? Testabilité
+			- lien entre CM, TD, TP (ex: TD et TP interaclé)		
 
 III. Contraintes
 	- Utilisateur
@@ -61,3 +51,10 @@ III. Contraintes
 	- Industrielles (doit être fabriqué au Ile de France, sur GitHub)
 	- Matérielles (Windows, Linux, MacOS, et les smartphone => en général sur tous les écrans)
 	- Temporelles (3 mois)
+	- Sécurité (Auth LDAP univ / ACL selon info LDAP)
+	? Performance (Rapidité de réponse) ??
+	? L’évolutivité (Gestion de charge, Scalabilité)
+	- Maintenabilité (Facilité de mise à jour, Log, ) ?
+	- Ergonomie (Responsive design ?)
+	- Disponibilité(24/24 et 7/7)
+	? Testabilité
